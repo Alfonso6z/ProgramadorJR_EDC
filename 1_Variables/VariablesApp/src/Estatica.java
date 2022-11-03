@@ -65,13 +65,28 @@ public class Estatica {
     
     public static void main(String[] args) {
         Estatica c1 = new Estatica("root", "root");
-        Estatica c2 = new Estatica("root", "root");
+        System.out.println("----------------");
+        c1.conectar();
+        Estatica c2 = new Estatica("alfonso", "4564");
+        System.out.println("----------------");
+        c2.conectar();
+        System.out.println("----------------");
+        
         System.out.println(c1.user);
         System.out.println(c2.user);
         
-        Estatica.pass_db="sudo_root";
+        System.out.println("----------------");
+        Estatica.pass_db="4564";
+        c2.user_db = "alfonso";
         
-        System.out.println(c1.pass_db);
-        System.out.println(c2.pass_db);
+        System.out.println("----------------");
+        c1.conectar();
+        System.out.println("----------------");
+        c2.conectar();
+
+        System.out.println(Estatica.pass_db);
+        System.out.println(Estatica.pass_db);
+
+        Local.saludo("alfonso");
     }
 }

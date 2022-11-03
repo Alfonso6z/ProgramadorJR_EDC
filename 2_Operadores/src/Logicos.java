@@ -1,9 +1,9 @@
 public class Logicos {
     
     public static void main(String[] args) {
-        ejemplos();
-        tablasDeVerdad();
-        cortocircuitoAND();
+        // ejemplos();
+        // tablasDeVerdad();
+        // cortocircuitoAND();
         cortocircuitoOR();
     }
 
@@ -40,7 +40,7 @@ public class Logicos {
 
     public static void cortocircuitoAND(){
         int a = 10, b = 20, c = 15;
-        if((a>c) && (++b > c) ){
+        if((a<c) && (++b > c) ){
             System.out.println(" dentro del if &&");
         }
         System.out.println("b = " + b);
@@ -48,7 +48,7 @@ public class Logicos {
 
     public static void cortocircuitoOR(){
         int a = 10, b = 20, c = 15;
-        if((b<c) || (++c > a) ){
+        if((b>c) || (++c > a) ){
             System.out.println(" dentro del if ||");
         }
         System.out.println("c = " + c);

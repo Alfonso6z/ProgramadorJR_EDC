@@ -20,5 +20,9 @@ public class Asignacion {
         System.out.println("****** (/=) ******");
         numero1/=numero2;
         System.out.println("numero2/=numero1 =  " + numero2);
+
+        System.out.println("numero2 =  " + numero2);
+        System.out.println("numero1 =  " + numero1);
+        System.out.println(numero2/numero1);
     }
 }

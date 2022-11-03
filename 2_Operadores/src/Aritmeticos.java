@@ -1,4 +1,5 @@
 public class Aritmeticos {
+    
     public static void main(String[] args) throws Exception {
         int a, b;
         int suma, resta, mul, div;

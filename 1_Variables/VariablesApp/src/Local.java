@@ -7,6 +7,9 @@ public class Local {
     }
 
     // Método estatico
+    /**
+     * @param nombre
+     */
     public static void saludo(String nombre){ // nombre es variable local
         // variable local
         String saludo = "Hola ";
@@ -14,5 +17,7 @@ public class Local {
         System.out.println("Tamaño de saludo = "+ saludo.length());
         System.out.println("Tamaño de nombre = "+ nombre.length());
         System.out.println(saludo + nombre);
+
+       System.out.println(Estatica.conect_db);
     }
 }
