@@ -1,5 +1,4 @@
-import java.util.Scanner;
-
+package saltos;
 public class Saltos {
     public static void main(String[] args) {
 

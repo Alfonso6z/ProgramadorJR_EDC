@@ -21,6 +21,7 @@ En una determinada empresa, sus empleados son evaluados al final de cada año. L
 |Inaceptable|0.0|
 |Aceptable|0.4|
 |Meritorio|0.6 o más|
+</center>
 
 Escribir un programa que lea la puntuación del usuario e indique su nivel de rendimiento, así como la cantidad de dinero que recibirá el usuario.
 ### Ejercicio 8
@@ -32,3 +33,26 @@ La pizzería Planeta ofrece pizzas vegetarianas y no vegetarianas a sus clientes
 * No vegetarianos: Peperoni, Jamón y Salmón.  
 
 Escribir un programa que pregunte al usuario si quiere una pizza vegetariana o no, y en función de su respuesta le muestre un menú con los ingredientes disponibles para que elija. Solo se puede eligir un ingrediente además de la mozzarella y el tomate que están en todas la pizzas. Al final se debe mostrar por pantalla si la pizza elegida es vegetariana o no y todos los ingredientes que lleva.
+
+# Ejercicios: Estructuras iterativas
+
+### Ejercicio 1
+Calcular la media de los números pares e impares, sólo se ingresará diez números.
+### Ejercicio 2
+Calcular la suma de los n primeros números.
+### Ejercicio 3
+Se quiere saber cuál es la ciudad con la población de más personas, son tres estados  con once ciudades, hacer un algoritmo que nos permita saber eso.
+### Ejercicio 4
+Imprimir las tablas de multiplicar de los números del uno al nueve.
+### Ejercicio 5
+Calcular el factorial de un número.
+### Ejercicio 6
+Hacer un algoritmo que nos diga si un número es primo.
+### Ejercicio 7
+Hacer un algoritmo que nos imprima los números primos en el rango [2,N].
+### Ejercicio 8
+Hacer un algoritmo que nos permita saber cuál es el número mayor y menor, se debe ingresar sólo veinte números.
+### Ejercicio 9
+Hacer un algoritmo para calcular la serie de Fibonacci.
+### Ejercicio 10
+Hacer un algoritmo para conseguir el M.C.D de un número por medio del algoritmo de Euclides.
