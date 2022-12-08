@@ -33,5 +33,18 @@ public class Flow extends JFrame {
         l.add("cinco");
         l.add("seis");
         add(l);
+        add(ch);    
+        add(ch);    
+        add(ch);    
+        add(ch);    
+        add(ch);    
+        add(ch);    
+        add(ch);    
+        add(ch);    
+        add(ch);    
+        add(ch);    
+        add(ch);    
+        add(ch);    
+        add(ch);    
     }
 }

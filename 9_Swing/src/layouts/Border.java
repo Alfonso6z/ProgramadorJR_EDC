@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class Border extends JFrame {
     int sepH=0,sepV=0;
-    public Border(String titulo){
+    public Border(String titulo, Container numeros){
         setTitle(titulo);
         setSize(400,300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -15,10 +15,11 @@ public class Border extends JFrame {
         add("North",new TextField("Norte"));
         add("South",new TextField("Sur"));
         add("East",new JButton("Este"));
+        add("West",new JButton("Otro nombreajslahs dlkjfhlakjsdhf as"));
         add("West",new JButton("Oeste"));
         Label lbl= new Label("Centro");
         lbl.setAlignment(Label.CENTER);
-        add("Center",lbl);
+        add("Center",numeros);
     }
 
 

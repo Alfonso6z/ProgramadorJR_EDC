@@ -26,17 +26,18 @@ public class Card extends JFrame implements ActionListener{
         // agregamos botones para intercalar los paneles
         btn1 = new JButton("Verde");
         btn2 = new JButton("Rojo");
-        // escuchamos las acciones del usuario en esta ventana
+
         btn1.addActionListener(this);
         btn2.addActionListener(this);
+        
         j1.add(btn1);
         j2.add(btn2);
         // evito que cambie el tamaño
         setResizable(false);
     }
-
     @Override
     public void actionPerformed(ActionEvent e) {
+
         if(e.getSource() == btn1){
             System.out.println("verde");
             j2.setVisible(true); 
@@ -47,5 +48,6 @@ public class Card extends JFrame implements ActionListener{
             j2.setVisible(false); 
             j1.setVisible(true); 
         }
+        
     }
 }
